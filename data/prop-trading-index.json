@@ -1,0 +1,706 @@
+{
+  "name": "PropSim Prop Trading Index",
+  "description": "Weekly metrics on prop firm challenge outcomes, failure causes, trader behaviour and challenge design, aggregated across firms running on the PropSim platform.",
+  "url": "https://propsim.markets/prop-trading-index",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "PropSim Prop Trading Index. https://propsim.markets/prop-trading-index",
+  "updated": "2026-10-19",
+  "snapshots": [
+    {
+      "weekOf": "2026-10-19",
+      "metrics": {
+        "phase1ClearRatePct": 14.1,
+        "phase2ClearRatePct": 34,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.3,
+          "p75": 13.4
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.7,
+          "INACTIVITY_MAX_DAYS": 40.3,
+          "MAX_OVERALL_LOSS": 4.5,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.48,
+            "cleared": 0.59,
+            "failed": 0.78
+          },
+          "payoffRatio": {
+            "all": 0.89,
+            "cleared": 1.69,
+            "failed": 0.82
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.82,
+            "cleared": 3.4,
+            "failed": 3.87
+          },
+          "winRatePct": {
+            "all": 56.5,
+            "cleared": 71.8,
+            "failed": 46.3
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 34.3,
+          "tightClearRatePct": 14.3,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 85.8,
+            "day3": 75.4,
+            "day7": 59.4,
+            "day14": 48.2,
+            "day21": 42.9,
+            "day30": 40.3,
+            "day45": 10.8,
+            "day60": 7.4
+          },
+          "medianLifespanDays": 10.4
+        },
+        "retry": {
+          "retryRatePct": 83.6,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.6,
+            "attempt2": 14.1,
+            "attempt3plus": 18.8
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 56,
+          "costsAsPctOfGrossProfitPct": 5.2,
+          "winRateBySessionPct": {
+            "london": 63.8,
+            "london_ny_overlap": 54.7,
+            "new_york": 52,
+            "asia": 55.7
+          },
+          "medianHoursToFirstTrade": 8.9,
+          "tradedWithin24hPct": 61.1
+        }
+      }
+    },
+    {
+      "weekOf": "2026-10-12",
+      "metrics": {
+        "phase1ClearRatePct": 13.5,
+        "phase2ClearRatePct": 34.3,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.3,
+          "p75": 13.8
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.6,
+          "INACTIVITY_MAX_DAYS": 40.4,
+          "MAX_OVERALL_LOSS": 4.5,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.44,
+            "cleared": 0.54,
+            "failed": 0.78
+          },
+          "payoffRatio": {
+            "all": 0.89,
+            "cleared": 1.7,
+            "failed": 0.79
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.84,
+            "cleared": 3.4,
+            "failed": 3.87
+          },
+          "winRatePct": {
+            "all": 56.3,
+            "cleared": 72,
+            "failed": 46.2
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 34.7,
+          "tightClearRatePct": 13.8,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 85.8,
+            "day3": 75.3,
+            "day7": 59.7,
+            "day14": 48.4,
+            "day21": 42.9,
+            "day30": 40.2,
+            "day45": 10.7,
+            "day60": 7.5
+          },
+          "medianLifespanDays": 10.5
+        },
+        "retry": {
+          "retryRatePct": 83.6,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.2,
+            "attempt2": 13.7,
+            "attempt3plus": 18.1
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 56,
+          "costsAsPctOfGrossProfitPct": 5.2,
+          "winRateBySessionPct": {
+            "london": 63.6,
+            "london_ny_overlap": 55,
+            "new_york": 52.2,
+            "asia": 55.1
+          },
+          "medianHoursToFirstTrade": 9.3,
+          "tradedWithin24hPct": 60.8
+        }
+      }
+    },
+    {
+      "weekOf": "2026-10-05",
+      "metrics": {
+        "phase1ClearRatePct": 13.5,
+        "phase2ClearRatePct": 34.7,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.3,
+          "p75": 13.8
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.5,
+          "INACTIVITY_MAX_DAYS": 40.5,
+          "MAX_OVERALL_LOSS": 4.6,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.44,
+            "cleared": 0.54,
+            "failed": 0.79
+          },
+          "payoffRatio": {
+            "all": 0.89,
+            "cleared": 1.71,
+            "failed": 0.8
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.83,
+            "cleared": 3.4,
+            "failed": 3.87
+          },
+          "winRatePct": {
+            "all": 56.3,
+            "cleared": 71.9,
+            "failed": 46.2
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 35,
+          "tightClearRatePct": 13.8,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 86,
+            "day3": 75.3,
+            "day7": 59.7,
+            "day14": 48.2,
+            "day21": 42.6,
+            "day30": 40.2,
+            "day45": 10.5,
+            "day60": 7.7
+          },
+          "medianLifespanDays": 10.6
+        },
+        "retry": {
+          "retryRatePct": 83.5,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.3,
+            "attempt2": 13.8,
+            "attempt3plus": 18.1
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 56.4,
+          "costsAsPctOfGrossProfitPct": 5.2,
+          "winRateBySessionPct": {
+            "london": 63.5,
+            "london_ny_overlap": 55.2,
+            "new_york": 52.3,
+            "asia": 54.7
+          },
+          "medianHoursToFirstTrade": 9.3,
+          "tradedWithin24hPct": 60.3
+        }
+      }
+    },
+    {
+      "weekOf": "2026-09-28",
+      "metrics": {
+        "phase1ClearRatePct": 13.8,
+        "phase2ClearRatePct": 34.7,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.4,
+          "p75": 13.8
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.1,
+          "INACTIVITY_MAX_DAYS": 40.8,
+          "MAX_OVERALL_LOSS": 4.6,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.45,
+            "cleared": 0.54,
+            "failed": 0.76
+          },
+          "payoffRatio": {
+            "all": 0.9,
+            "cleared": 1.74,
+            "failed": 0.79
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.82,
+            "cleared": 3.4,
+            "failed": 3.87
+          },
+          "winRatePct": {
+            "all": 56.2,
+            "cleared": 71.4,
+            "failed": 46.4
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 35,
+          "tightClearRatePct": 14,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 85.9,
+            "day3": 75,
+            "day7": 59.8,
+            "day14": 48.2,
+            "day21": 42.8,
+            "day30": 40.2,
+            "day45": 10.7,
+            "day60": 7.9
+          },
+          "medianLifespanDays": 10.7
+        },
+        "retry": {
+          "retryRatePct": 83.4,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.5,
+            "attempt2": 14,
+            "attempt3plus": 18.1
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 56.6,
+          "costsAsPctOfGrossProfitPct": 5.1,
+          "winRateBySessionPct": {
+            "london": 62.8,
+            "london_ny_overlap": 55.7,
+            "new_york": 52.5,
+            "asia": 54.8
+          },
+          "medianHoursToFirstTrade": 9.4,
+          "tradedWithin24hPct": 59.5
+        }
+      }
+    },
+    {
+      "weekOf": "2026-09-21",
+      "metrics": {
+        "phase1ClearRatePct": 13.8,
+        "phase2ClearRatePct": 33.7,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.4,
+          "p75": 13.8
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.3,
+          "INACTIVITY_MAX_DAYS": 40.5,
+          "MAX_OVERALL_LOSS": 4.7,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.46,
+            "cleared": 0.53,
+            "failed": 0.79
+          },
+          "payoffRatio": {
+            "all": 0.9,
+            "cleared": 1.74,
+            "failed": 0.79
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.82,
+            "cleared": 3.41,
+            "failed": 3.85
+          },
+          "winRatePct": {
+            "all": 56,
+            "cleared": 71.3,
+            "failed": 46.4
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 34,
+          "tightClearRatePct": 14,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 86,
+            "day3": 75.1,
+            "day7": 59.7,
+            "day14": 48.4,
+            "day21": 42.8,
+            "day30": 40.1,
+            "day45": 10.8,
+            "day60": 8
+          },
+          "medianLifespanDays": 10.6
+        },
+        "retry": {
+          "retryRatePct": 83.7,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.5,
+            "attempt2": 14,
+            "attempt3plus": 17.9
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 57.7,
+          "costsAsPctOfGrossProfitPct": 5.1,
+          "winRateBySessionPct": {
+            "london": 62.6,
+            "london_ny_overlap": 55.8,
+            "new_york": 52.5,
+            "asia": 54.6
+          },
+          "medianHoursToFirstTrade": 9.4,
+          "tradedWithin24hPct": 59.6
+        }
+      }
+    },
+    {
+      "weekOf": "2026-09-14",
+      "metrics": {
+        "phase1ClearRatePct": 13.6,
+        "phase2ClearRatePct": 33,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.3,
+          "p75": 13.4
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.5,
+          "INACTIVITY_MAX_DAYS": 40.5,
+          "MAX_OVERALL_LOSS": 4.5,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.49,
+            "cleared": 0.5,
+            "failed": 0.79
+          },
+          "payoffRatio": {
+            "all": 0.9,
+            "cleared": 1.82,
+            "failed": 0.78
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.82,
+            "cleared": 3.5,
+            "failed": 3.87
+          },
+          "winRatePct": {
+            "all": 56.1,
+            "cleared": 71.3,
+            "failed": 46.4
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 33.3,
+          "tightClearRatePct": 13.9,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 85.9,
+            "day3": 75.1,
+            "day7": 59.9,
+            "day14": 48.5,
+            "day21": 42.7,
+            "day30": 40.3,
+            "day45": 11.1,
+            "day60": 8.3
+          },
+          "medianLifespanDays": 10.5
+        },
+        "retry": {
+          "retryRatePct": 84.3,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.5,
+            "attempt2": 13.6,
+            "attempt3plus": 17.7
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 58.1,
+          "costsAsPctOfGrossProfitPct": 5.1,
+          "winRateBySessionPct": {
+            "london": 62.7,
+            "london_ny_overlap": 55.9,
+            "new_york": 52.5,
+            "asia": 54.4
+          },
+          "medianHoursToFirstTrade": 9.5,
+          "tradedWithin24hPct": 59.4
+        }
+      }
+    },
+    {
+      "weekOf": "2026-09-07",
+      "metrics": {
+        "phase1ClearRatePct": 13.5,
+        "phase2ClearRatePct": 33.3,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.3,
+          "p75": 13.4
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.6,
+          "INACTIVITY_MAX_DAYS": 40.5,
+          "MAX_OVERALL_LOSS": 4.4,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.49,
+            "cleared": 0.5,
+            "failed": 0.78
+          },
+          "payoffRatio": {
+            "all": 0.89,
+            "cleared": 1.8,
+            "failed": 0.79
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.82,
+            "cleared": 3.5,
+            "failed": 3.85
+          },
+          "winRatePct": {
+            "all": 56.2,
+            "cleared": 71.3,
+            "failed": 46.5
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 33.7,
+          "tightClearRatePct": 13.8,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 86.1,
+            "day3": 75.3,
+            "day7": 59.9,
+            "day14": 48.3,
+            "day21": 42.9,
+            "day30": 40.7,
+            "day45": 11.3,
+            "day60": 8.5
+          },
+          "medianLifespanDays": 10.5
+        },
+        "retry": {
+          "retryRatePct": 84.2,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.5,
+            "attempt2": 13.2,
+            "attempt3plus": 17.9
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 57.7,
+          "costsAsPctOfGrossProfitPct": 5.1,
+          "winRateBySessionPct": {
+            "london": 62.7,
+            "london_ny_overlap": 56.1,
+            "new_york": 52.6,
+            "asia": 54.6
+          },
+          "medianHoursToFirstTrade": 9.7,
+          "tradedWithin24hPct": 59.3
+        }
+      }
+    },
+    {
+      "weekOf": "2026-08-31",
+      "metrics": {
+        "phase1ClearRatePct": 13.1,
+        "phase2ClearRatePct": 34.4,
+        "daysToClear": {
+          "p25": 4.4,
+          "median": 7.3,
+          "p75": 12.6
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 55.3,
+          "INACTIVITY_MAX_DAYS": 40.1,
+          "MAX_OVERALL_LOSS": 4.2,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.2
+        },
+        "challengeDesign": {
+          "medianAccountSize": 100000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.5,
+            "cleared": 0.49,
+            "failed": 0.76
+          },
+          "payoffRatio": {
+            "all": 0.89,
+            "cleared": 1.82,
+            "failed": 0.81
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.82,
+            "cleared": 3.56,
+            "failed": 4
+          },
+          "winRatePct": {
+            "all": 56.4,
+            "cleared": 71.7,
+            "failed": 46.8
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 34.7,
+          "tightClearRatePct": 13.3,
+          "relaxedLabel": "6% target, 60 days",
+          "tightLabel": "8% target, 30 days"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 86,
+            "day3": 75.1,
+            "day7": 59.7,
+            "day14": 48.5,
+            "day21": 43.3,
+            "day30": 41.1,
+            "day45": 11.5,
+            "day60": 8.8
+          },
+          "medianLifespanDays": 10.3
+        },
+        "retry": {
+          "retryRatePct": 84.1,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 14.8,
+            "attempt2": 12.9,
+            "attempt3plus": 18.1
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 56.9,
+          "costsAsPctOfGrossProfitPct": 5.1,
+          "winRateBySessionPct": {
+            "london": 63,
+            "london_ny_overlap": 56.2,
+            "asia": 54.8,
+            "new_york": 52.8
+          },
+          "medianHoursToFirstTrade": 9.9,
+          "tradedWithin24hPct": 59.1
+        }
+      }
+    }
+  ]
+}
