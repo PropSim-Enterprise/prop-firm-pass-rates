@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="Segoe UI, Helvetica, Arial, sans-serif">
 <rect width="760" height="380" rx="12" fill="#ffffff"/>
-<text x="56" y="30" font-size="17" font-weight="700" fill="#0e1324">Why challenges fail: share of failed accounts, week of 2026-10-19</text>
-<text x="210" y="83.2" font-size="12" fill="#0e1324" text-anchor="end">Daily loss limit</text><rect x="220" y="72.2" width="450" height="18" rx="4" fill="#2547f4"/><text x="678" y="86.2" font-size="12" fill="#566079">54.7%</text>
-<text x="210" y="141.6" font-size="12" fill="#0e1324" text-anchor="end">Time limit / inactivity</text><rect x="220" y="130.6" width="331.5356489945155" height="18" rx="4" fill="#2547f4"/><text x="559.5356489945154" y="144.6" font-size="12" fill="#566079">40.3%</text>
-<text x="210" y="200" font-size="12" fill="#0e1324" text-anchor="end">Maximum loss</text><rect x="220" y="189" width="37.020109689213896" height="18" rx="4" fill="#2547f4"/><text x="265.0201096892139" y="203" font-size="12" fill="#566079">4.5%</text>
-<text x="210" y="258.4" font-size="12" fill="#0e1324" text-anchor="end">Trailing drawdown</text><rect x="220" y="247.39999999999998" width="2.4680073126142594" height="18" rx="4" fill="#2547f4"/><text x="230.46800731261425" y="261.4" font-size="12" fill="#566079">0.3%</text>
-<text x="210" y="316.8" font-size="12" fill="#0e1324" text-anchor="end">Maximum lot size</text><rect x="220" y="305.8" width="1.6453382084095063" height="18" rx="4" fill="#2547f4"/><text x="229.6453382084095" y="319.8" font-size="12" fill="#566079">0.2%</text>
+<text x="56" y="30" font-size="17" font-weight="700" fill="#0e1324">Why challenges fail: share of failed accounts, week of 2026-11-01</text>
+<text x="210" y="83.2" font-size="12" fill="#0e1324" text-anchor="end">Daily loss limit</text><rect x="220" y="72.2" width="450" height="18" rx="4" fill="#2547f4"/><text x="678" y="86.2" font-size="12" fill="#566079">54%</text>
+<text x="210" y="141.6" font-size="12" fill="#0e1324" text-anchor="end">Time limit / inactivity</text><rect x="220" y="130.6" width="339.1666666666667" height="18" rx="4" fill="#2547f4"/><text x="567.1666666666667" y="144.6" font-size="12" fill="#566079">40.7%</text>
+<text x="210" y="200" font-size="12" fill="#0e1324" text-anchor="end">Maximum loss</text><rect x="220" y="189" width="40" height="18" rx="4" fill="#2547f4"/><text x="268" y="203" font-size="12" fill="#566079">4.8%</text>
+<text x="210" y="258.4" font-size="12" fill="#0e1324" text-anchor="end">Trailing drawdown</text><rect x="220" y="247.39999999999998" width="2.5" height="18" rx="4" fill="#2547f4"/><text x="230.5" y="261.4" font-size="12" fill="#566079">0.3%</text>
+<text x="210" y="316.8" font-size="12" fill="#0e1324" text-anchor="end">Maximum lot size</text><rect x="220" y="305.8" width="0.8333333333333334" height="18" rx="4" fill="#2547f4"/><text x="228.83333333333334" y="319.8" font-size="12" fill="#566079">0.1%</text>
 <text x="736" y="370" font-size="11" fill="#8a93a8" text-anchor="end">Source: PropSim Prop Trading Index · CC BY 4.0</text>
 </svg>
