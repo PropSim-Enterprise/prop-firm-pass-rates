@@ -7,17 +7,17 @@ Updated every week · [CSV files](data/) · [Full JSON](data/prop-trading-index.
 ## Latest week
 
 <!-- latest:start -->
-**Week of 2026-11-09**
+**Week of 2026-11-16**
 
 | Metric | Value |
 |---|---|
-| Phase 1 pass rate | 14% |
+| Phase 1 pass rate | 13.8% |
 | Phase 2 pass rate (of those who reached it) | 34.9% |
 | Median days to clear a phase | 7.4 days |
-| Most common reason a challenge fails | Daily loss limit (54.2% of failed accounts) |
+| Most common reason a challenge fails | Daily loss limit (54.6% of failed accounts) |
 | Accounts still open after 30 days | 39.8% |
-| Traders who buy another attempt | 83.8% |
-| Win rate: cleared vs failed accounts | 71.5% vs 46% |
+| Traders who buy another attempt | 84% |
+| Win rate: cleared vs failed accounts | 71.5% vs 45.9% |
 | Median account size | $50,000 |
 | Median profit split | 80% |
 <!-- latest:end -->

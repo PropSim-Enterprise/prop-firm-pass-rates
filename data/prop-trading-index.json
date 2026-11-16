@@ -4,8 +4,95 @@
   "url": "https://propsim.markets/prop-trading-index",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "attribution": "PropSim Prop Trading Index. https://propsim.markets/prop-trading-index",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "snapshots": [
+    {
+      "weekOf": "2026-11-16",
+      "metrics": {
+        "phase1ClearRatePct": 13.8,
+        "phase2ClearRatePct": 34.9,
+        "daysToClear": {
+          "p25": 4.5,
+          "median": 7.4,
+          "p75": 13.8
+        },
+        "terminalBreachMixPct": {
+          "MAX_DAILY_LOSS": 54.6,
+          "INACTIVITY_MAX_DAYS": 40.3,
+          "MAX_OVERALL_LOSS": 4.7,
+          "TRAILING_DRAWDOWN": 0.3,
+          "MAX_LOTS": 0.1
+        },
+        "challengeDesign": {
+          "medianAccountSize": 50000,
+          "medianProfitSplitPct": 80,
+          "medianMaxDurationDays": 45,
+          "medianLeverage": 100
+        },
+        "tradingDiscipline": {
+          "medianRiskPctOfBalance": {
+            "all": 0.5,
+            "cleared": 0.6,
+            "failed": 0.66
+          },
+          "payoffRatio": {
+            "all": 0.9,
+            "cleared": 1.32,
+            "failed": 0.82
+          },
+          "medianPlannedRiskReward": {
+            "all": 3.79,
+            "cleared": 3.41,
+            "failed": 3.87
+          },
+          "winRatePct": {
+            "all": 55.8,
+            "cleared": 71.5,
+            "failed": 45.9
+          }
+        },
+        "ruleEfficacy": {
+          "relaxedClearRatePct": 35.2,
+          "tightClearRatePct": 14.1,
+          "relaxedLabel": "<=6% target, <=30d",
+          "tightLabel": "8% target, 60d"
+        },
+        "survival": {
+          "stillOpenPct": {
+            "day1": 85.9,
+            "day3": 75.2,
+            "day7": 59.8,
+            "day14": 47.9,
+            "day21": 42.3,
+            "day30": 39.8,
+            "day45": 10.8,
+            "day60": 7.8
+          },
+          "medianLifespanDays": 10.4
+        },
+        "retry": {
+          "retryRatePct": 84,
+          "medianDaysBetweenAttempts": 4.2,
+          "clearRateByAttempt": {
+            "attempt1": 15.4,
+            "attempt2": 14,
+            "attempt3plus": 19.3
+          }
+        },
+        "behaviour": {
+          "worstDayShareOfLossPct": 55.8,
+          "costsAsPctOfGrossProfitPct": 5.2,
+          "winRateBySessionPct": {
+            "london": 63.6,
+            "london_ny_overlap": 53.1,
+            "new_york": 51.4,
+            "asia": 55.4
+          },
+          "medianHoursToFirstTrade": 9.1,
+          "tradedWithin24hPct": 61.3
+        }
+      }
+    },
     {
       "weekOf": "2026-11-09",
       "metrics": {
